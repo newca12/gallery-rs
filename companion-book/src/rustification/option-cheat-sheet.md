@@ -8,7 +8,7 @@ Adapted from [λ Tony's blog λ scala.Option Cheat Sheet](https://web.archive.or
 match option {
      None => None,
      Some(x) => foo(x)
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -20,7 +20,7 @@ option.and_then(foo)
 match option {
      None => None,
      Some(x) => x
- };
+ }
 ```
 This code is equivalent to :
 ```rust.ignore
@@ -32,7 +32,7 @@ flatten() //(and not unwrap() that would fail for option = None)
 match option {
      None => None,
      Some(x) => Some(foo(x))
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -42,13 +42,13 @@ option.map(foo)
 **for_each**
 ```rust.ignore
 match option {
-     None => None,
-     Some(x) => Some(foo(x))
- };
+     None => (),
+     Some(x) => foo(x)
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
-option.into_iter().for_each(foo))
+option.into_iter().for_each(foo);
 ```
 ---
 **is_some**
@@ -56,7 +56,7 @@ option.into_iter().for_each(foo))
 match option {
       None => false,
       Some(_) => true
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -68,7 +68,7 @@ option.is_some()
 match option {
       None => true,
       Some(_) => false
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -80,7 +80,7 @@ option.is_none()
 match option {
       None => true,
       Some(x) => foo(x)
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -92,7 +92,7 @@ option.into_iter().all (|x| foo(x))
 match option {
       None => false,
       Some(x) => foo(x)
- };
+ }
 ```
 This code is equivalent to :    
 ```rust.ignore
@@ -104,7 +104,7 @@ option.into_iter().any (|x| foo(x))
 match option {
       None => foo,
       Some(x) => Some(x)
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -116,7 +116,7 @@ option.or(foo)
 match option {
       None => foo,
       Some(x) => x
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
@@ -128,11 +128,11 @@ option.unwrap_or(foo)
 match option {
       None => Vec::new(),
       Some(x) => vec![x]
- };
+ }
 ```
 This code is equivalent to :  
 ```rust.ignore
-option.into_iter().filter_map(|x| Some(x)).collect::<Vec<i32>>())
+option.into_iter().filter_map(|x| Some(x)).collect::<Vec<_>>()
 ```
 ---
 ## Resources
