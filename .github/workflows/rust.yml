@@ -22,7 +22,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'book'
+          source-directory: 'companion-book/book'
           target-directory: 'rust'
           destination-github-username: 'newca12'
           destination-repository-name: 'newca12.github.com'
