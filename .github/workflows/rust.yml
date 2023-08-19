@@ -27,5 +27,5 @@ jobs:
           destination-github-username: 'newca12'
           destination-repository-name: 'newca12.github.com'
           user-email: newca12@users.noreply.github.com
-          commit-message: Update recipes
+          commit-message: Update gallery-rs companion book
           target-branch: master

@@ -24,7 +24,7 @@ match option {
 ```
 This code is equivalent to :
 ```rust.ignore
-flatten() //(and not unwrap() that would fail for option = None)
+option.flatten() //(and not unwrap() that would fail for option = None)
 ```
 ---
 **map**
