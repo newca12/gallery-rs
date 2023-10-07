@@ -1,0 +1,10 @@
+[book]
+title = "Rust Gallery : a journey with Rust by side roads"
+authors = ["Olivier ROLAND"]
+edition = "2021"
+language = "en"
+multilingual = false
+src = "src"
+
+[rust]
+edition = "2021"

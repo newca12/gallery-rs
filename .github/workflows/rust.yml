@@ -15,14 +15,13 @@ jobs:
       - run: |
           echo build
           cargo install mdbook
-          cd companion-book
           mdbook build
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'companion-book/book'
+          source-directory: 'book'
           target-directory: 'rust'
           destination-github-username: 'newca12'
           destination-repository-name: 'newca12.github.com'

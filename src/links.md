@@ -1,0 +1,10 @@
+[async-compression-badge]: https://badge-cache.kominick.com/crates/v/async-compression.svg?label=async-compression
+[async-compression]: https://docs.rs/async-compression/
+[async-fs-badge]: https://badge-cache.kominick.com/crates/v/async-fs.svg?label=async-fs
+[async-fs]: https://docs.rs/async-fs/
+[futures-badge]: https://badge-cache.kominick.com/crates/v/futures.svg?label=futures
+[futures]: https://docs.rs/futures/
+[tokio-badge]: https://badge-cache.kominick.com/crates/v/tokio.svg?label=tokio
+[tokio]: https://docs.rs/tokio/
+[tokio-stream-badge]: https://badge-cache.kominick.com/crates/v/tokio-stream.svg?label=tokio-stream
+[tokio-stream]: https://docs.rs/tokio-stream/
