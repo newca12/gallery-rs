@@ -2,6 +2,8 @@
 [async-compression]: https://docs.rs/async-compression/
 [async-fs-badge]: https://badge-cache.kominick.com/crates/v/async-fs.svg?label=async-fs
 [async-fs]: https://docs.rs/async-fs/
+[futures-0.3.28-badge]: https://badge-cache.kominick.com/badge/futures-0.3.28-orange.svg
+[futures-0.3.29-badge]: https://badge-cache.kominick.com/badge/futures-0.3.29-orange.svg
 [futures-badge]: https://badge-cache.kominick.com/crates/v/futures.svg?label=futures
 [futures]: https://docs.rs/futures/
 [tokio-badge]: https://badge-cache.kominick.com/crates/v/tokio.svg?label=tokio
