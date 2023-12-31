@@ -1,5 +1,7 @@
 [async-compression-badge]: https://badge-cache.kominick.com/crates/v/async-compression.svg?label=async-compression
 [async-compression]: https://docs.rs/async-compression/
+[async-executor-badge]: https://badge-cache.kominick.com/crates/v/async-executor.svg?label=async-executor
+[async-executor]: https://docs.rs/async-executor/
 [async-fs-badge]: https://badge-cache.kominick.com/crates/v/async-fs.svg?label=async-fs
 [async-fs]: https://docs.rs/async-fs/
 [futures-0.3.28-badge]: https://badge-cache.kominick.com/badge/futures-0.3.28-orange.svg

@@ -6,19 +6,19 @@ Fortunatly [`tokio_stream::wrappers::LinesStream`](https://docs.rs/tokio-stream/
 
 ## Implementation with Futures
 [![async-compression-badge]][async-compression] [![async-fs-badge]][async-fs] [![futures-badge]][futures]
-```rust,edition2021,no_run
+```rust,ignore
 {{#include examples/tokio-vs-futures/futures.rs}}
 ```
 
 ## Implementation with Tokio
 [![async-compression-badge]][async-compression] [![tokio-badge]][tokio]
-```rust,edition2021,no_run
+```rust,ignore
 {{#include examples/tokio-vs-futures/tokio.rs}}
 ```
 
 ## Implementation with Tokio Stream
 [![async-compression-badge]][async-compression] [![tokio-badge]][tokio] [![tokio-stream-badge]][tokio-stream]
-```rust,edition2021,no_run
+```rust,ignore
 {{#include examples/tokio-vs-futures/tokio_stream.rs}}
 ```
 

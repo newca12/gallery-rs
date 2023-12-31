@@ -2,7 +2,7 @@
 
 ### A mutable reference can be store in an immutable variable
 
-```rust.ignore
+```rust,ignore
  let mut s = String::from("hello");
  let r1 = &mut s;
 ```
@@ -14,12 +14,12 @@
 compile without errors.
 
 Does it compile to the same code if we use immutable reference ?
-```rust.ignore
+```rust,ignore
  let r1 = &s;
 ```
 
 Let's compare
-```rust.ignore
+```rust,ignore
 pub fn review() {
     let mut s = String::from("hello");
     let r1: &String = &mut s;
@@ -27,7 +27,7 @@ pub fn review() {
 }
 ```
 and
-```rust.ignore
+```rust,ignore
 pub fn review() {
     let mut s = String::from("hello");
     let r1 = &s; 
