@@ -11,14 +11,14 @@ Run this to show the compiler error when this requirement is no met.
 {{#include examples/lifetimes/puzzle1_problem.rs}}
 ```
 
-The fact that the drop of v after main is not compatible with ```argument requires that `v` is borrowed for `'static```` is not obvious.  
+The fact that the drop of v after main is not compatible with ```"argument requires that `v` is borrowed for `'static`"``` is not obvious.  
 The issue is that v has the lifetime defined by the scope of main() and not the 'static lifetime required by the Trait bound[^ref1] of the spawn function.   
 
 The solution for Tokio API is `Arc`.  
 
 [![tokio-badge]][tokio]
 
-```rust,ignore
+```rust,mdbook-runnable,ignore
 {{#include examples/lifetimes/puzzle1_solution.rs}}
 ```
 
