@@ -7,6 +7,7 @@
     - [Tokio vs Futures](not-obvious-at-first/tokio-vs-futures.md)
     - [Spurious stream lock](not-obvious-at-first/spurious-stream-lock.md)
     - [Tokio spawn & lifetime](not-obvious-at-first/tokio-spawn-&-lifetime.md)
+    - [Type-Driven API](not-obvious-at-first/type-driven-api.md)
 
 - [Rustification](rustification.md)
     - [Option Cheat Sheet](rustification/option-cheat-sheet.md)
