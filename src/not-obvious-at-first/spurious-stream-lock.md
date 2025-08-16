@@ -20,7 +20,7 @@ Does filter bad lines when unvalid UTF-8 line is encountered
 
 ~~Does **lock** when unvalid UTF-8 line is encountered~~  
 
-[![futures-0.3.28-badge]][futures-0.3.28-badge]
+[![futures-badge]][futures]
 ```rust,ignore
 {{#include examples/spurious-stream-lock/async_string_futures_stream_lock.rs}}
 ```

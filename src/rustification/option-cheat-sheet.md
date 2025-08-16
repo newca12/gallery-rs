@@ -1,6 +1,6 @@
 ## Option Cheat Sheet
 
-Adapted from [λ Tony's blog λ scala.Option Cheat Sheet](https://web.archive.org/web/20130429013704/http://blog.tmorris.net/posts/scalaoption-cheat-sheet/)
+Adapted from [λ Tony's blog λ scala.Option Cheat Sheet](https://blog.tmorris.net/posts/scalaoption-cheat-sheet/)
 
 ---
 **and_then** (aka flatMap in Scala)
